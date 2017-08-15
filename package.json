@@ -1,0 +1,35 @@
+{
+  "name": "platzigram-client",
+  "version": "1.0.0",
+  "description": "Platzigram API Client",
+  "main": "index.js",
+  "scripts": {
+    "lint": "standard",
+    "test": "npm run lint && ava"
+  },
+  "standard": {
+    "parser": "babel-eslint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AlbertHdz4/platzigram-client.git"
+  },
+  "author": "Alberto Hernández <alberto.hernandez.l@outlook.com> (https://twitter.com/BetoFns27)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AlbertHdz4/platzigram-client/issues"
+  },
+  "homepage": "https://github.com/AlbertHdz4/platzigram-client#readme",
+  "devDependencies": {
+    "ava": "^0.21.0",
+    "babel-eslint": "^7.2.3",
+    "nock": "^9.0.14",
+    "standard": "^10.0.3",
+    "uuid-base62": "^0.1.0"
+  },
+  "dependencies": {
+    "bluebird": "^3.5.0",
+    "request": "^2.81.0",
+    "request-promise": "^4.2.1"
+  }
+}
